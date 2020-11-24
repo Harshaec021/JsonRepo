@@ -1,16 +1,14 @@
-[
-  {
-    "postId": 1,
-    "id": 1,
-    "name": "id labore ex et quam laborum",
-    "email": "Eliseo@gardner.biz",
-    "body": "laudantium "
-  },
-  {
-    "postId": 1,
-    "id": 2,
-    "name": "quo vero reiciendis velit similique earum",
-    "email": "Jayne_Kuhic@sydney.com",
-    "body": "est "
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
